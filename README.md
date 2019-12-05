@@ -84,6 +84,8 @@ My suggested reading order would be:
 
   * #### Model Architecture
   this is kind of what it looks like, the general idea, passing images into smaller features information and numbers
+  
+  ![](https://i.imgur.com/fcLWyB4.png)
 
   ![](https://neurohive.io/wp-content/uploads/2018/11/vgg16-1-e1542731207177-570x321.png)
 
