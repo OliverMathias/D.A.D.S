@@ -89,7 +89,7 @@ My suggested reading order would be:
 
 
   but we actually use residual cnn networks then pass those extracted features (floats) to a full connected network along with the other agent inputs, (speed, vector3 of target, raycast distances)
-  ![](https://miro.medium.com/max/2374/1*beczGvPaBBnyauKItYGTYQ.png)
+  ![](https://miro.medium.com/max/704/1*WpX_8eCeTsEcCs8vdXtUCw.png)
 
   * #### Final Model Results
 
