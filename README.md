@@ -89,16 +89,16 @@ My suggested reading order would be:
 
    1. Front Facing Camera (this is what the car sees)
 
-     ![](http://g.recordit.co/Em9BT7NVWJ.gif)
+    ![](http://g.recordit.co/Em9BT7NVWJ.gif)
 
    2. "Lidar" Sensors
 
-     ![](http://g.recordit.co/vFtCWUVqCa.gif)
-     (It seems like there are more than 10 raycasts but that's just the laggy scene view at 10X speed)
+    ![](http://g.recordit.co/vFtCWUVqCa.gif)
+    (It seems like there are more than 10 raycasts but that's just the laggy scene view at 10X speed)
 
    3. Vector3 Positions/Velocities
 
-     ![](http://g.recordit.co/bia1mclSeV.gif)
+    ![](http://g.recordit.co/bia1mclSeV.gif)
 
   The combination of these sensing methods allow our car to visually, and spatially recognize it's target, as well as keep an eye out for obstacles in all directions surrounding it.
 
