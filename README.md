@@ -3,48 +3,25 @@
  Inspired by the work of [Samuel Arzt](https://www.youtube.com/channel/UC_eerU4SleeptEbD2AA_nDw) and [m baske](https://www.youtube.com/channel/UCqMSNJyrG5zWrjl-_hYdF0g), the "Dynamic Autonomous Driving Stage", or **D.A.D.S**, is an experiment in the training and deployment of Reinforcement Learning algorithms.
 
 ## Demo
+[![Watch the video](https://i.imgur.com/5XHvbvW.jpg)](https://youtu.be/GmSWXvZIGiE)
 
 ## Table of contents
-* [How to Use it](#how-to-use-it)
-  * [Buttons](#clone-repository)
-    * [Start](#navigate-to-localhost)
-    * [Reset](#navigate-to-localhost)
-    * [Switch Camera Views](#install-dependencies)
-    * [Randomize Obstacles](#run-doggydoor.py)
-  * [Metrics](#clone-repository)
-    * [Successes / Crashes](#navigate-to-localhost)
-* [Why it was Built](#uses)
-  * [Standalone Website](#standalone-website)
+* [How to Download](#how-to-download)
+* [Why it was Built](#why-it-was-built)
 * [How it was Built](#how-it-was-built)
-  * [Unity ML Agents](#learning-about-keras)
-  * [Observation Parameters](#learning-about-keras)
-  * [Model Architecture](#learning-about-keras)
-  * [Final Model Results](#learning-about-keras)
+  * [Unity ML Agents](#unity-ml-agents)
+  * [Observation Parameters](#observation-parameters)
+  * [Model Architecture](#model-architecture)
+  * [Final Model Results](#final-model-results)
 * [Acknowledgments](#acknowledgments)
 * [License](#license)
 
-## How to use it
-Simple visit [WEBSITE], a loading screen should pop up and you'll be directed to the start screen!
+## How to Download
 
-put a gif here of me typing in the url and the page loading
-and put a gif on each of the buttons sub point
-
-
-  * #### Buttons
-  This is an overview of all the buttons in the UI of D.A.D.S
-    * #### Start
-    This is an overview of all the buttons in the UI of D.A.D.S
-    * #### Reset
-    This is an overview of all the buttons in the UI of D.A.D.S
-    * #### Camera Views
-    This is an overview of all the buttons in the UI of D.A.D.S
-    * #### Randomize Obstacles
-    This is an overview of all the buttons in the UI of D.A.D.S
-  * #### Metrics
-  This is an overview of all the buttons in the UI of D.A.D.S
-    * #### Successes / Crashes
-    This is an overview of all the buttons in the UI of D.A.D.S
-
+The easiest way to download this package (along with the Windows Executable) is to clone this github repository...
+```
+git clone https://github.com/OliverMathias/D.A.D.S.git
+```
 ---
 
 ## Why it was Built
@@ -142,6 +119,19 @@ My suggested reading order would be:
   So after millions and millions of training iterations, our CNN and Fully Connected layers will adjust their weights so that their outputs will give them the highest reward possible given their input observations.
 
   * #### Final Model Results
+  After testing almost 30 different models and hyper-parameters...
+
+  ![](https://i.imgur.com/4zRqovx.jpg)
+
+  One model finally emerged as the reigning champ at around 16M episodes...
+
+  ![](https://i.imgur.com/CDvUOpA.jpg)
+
+  With a steadily increasing average rewards per episode as show above, and a steadily decreasing episode length (finding faster solutions) shown below.
+
+  ![](https://i.imgur.com/VGz16aG.jpg)
+
+  The final accuracy of this model is **93%** if it is left running long enough. Not incredible, but it gets the job done, I know that if I continue to tweak the parameters and learning arena I can get it to somewhere around **99%**. However, I have a ton more projects to get to in the pipeline, and to be honest, it's pretty interesting to see where the RL algorithm falls short.
 
 
 ## Acknowledgments
