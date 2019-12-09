@@ -142,4 +142,4 @@ My suggested reading order would be:
 * [m baske](https://www.youtube.com/channel/UCqMSNJyrG5zWrjl-_hYdF0g)
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/OliverMathias/D.A.D.S/blob/master/LICENSE) file for details
