@@ -3,7 +3,6 @@
  Inspired by the work of [Samuel Arzt](https://www.youtube.com/channel/UC_eerU4SleeptEbD2AA_nDw) and [m baske](https://www.youtube.com/channel/UCqMSNJyrG5zWrjl-_hYdF0g), the "Dynamic Autonomous Driving Stage", or **D.A.D.S**, is an experiment in the training and deployment of Reinforcement Learning algorithms.
 
 ## Demo
-put a gif here showing the web UI and Car
 
 ## Table of contents
 * [How to Use it](#how-to-use-it)
