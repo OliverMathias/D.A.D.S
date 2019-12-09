@@ -22,6 +22,10 @@ The easiest way to download this package (along with the Windows Executable) is 
 ```
 git clone https://github.com/OliverMathias/D.A.D.S.git
 ```
+It's also just as easy to download the .zip file of the whole project through github's UI...
+
+![](https://i.imgur.com/2naRwzK.png)
+
 **Note**: If you want to open this project in unity, Unzip the "D.A.D.S.zip" file under your installation of "ml-agents > UnitySDK > Assets > Ml Agents"
 
 ---
